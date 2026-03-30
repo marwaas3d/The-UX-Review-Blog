@@ -1,7 +1,6 @@
 # 🧠 The UX Review Blog
 
-🔗 **Live Demo:**  
-demo: https://marwaas3d.github.io/The-UX-Review-Blog/
+🔗 **Live Demo:**  https://marwaas3d.github.io/The-UX-Review-Blog/
 
 ---
 
