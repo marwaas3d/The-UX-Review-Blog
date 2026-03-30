@@ -126,6 +126,23 @@ img {
   }
 }
 
+@media (max-width: 768px) {
+  .heading {
+    & h3 {
+      font-size: 36px;
+      line-height: 36px;
+    }
+
+    & p {
+      font-size: 15px;
+      line-height: 21px;
+    }
+    & .line {
+      width: 30%;
+    }
+  }
+}
+
 /*********************************NAV STARTS****************************/
 nav {
   background-color: white;
@@ -928,6 +945,21 @@ body {
     }
   }
 }
+
+@media (max-width: 468px) {
+  .article {
+    & .container {
+      & .articles-wrapper {
+        & .heading {
+          & h3 {
+            font-size: 36px;
+            line-height: 36px;
+          }
+        }
+      }
+    }
+  }
+}
 /*********************************latest article ENDS****************************/
 
 /*********************************AUTHOR STARTS****************************/
@@ -1304,6 +1336,65 @@ body {
         & .join-us,
         & .reviews {
           width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .community {
+    & .container {
+      & .content-wrapper {
+        & .join-us {
+          padding-inline: 0;
+          & h4 {
+            font-size: 27px;
+            line-height: 30px;
+          }
+          & .features {
+            & .feature {
+              & div {
+                width: 36px;
+                height: 36px;
+                padding-inline: 8px;
+                & i {
+                  font-size: 13px;
+                }
+              }
+            }
+          }
+        }
+
+        & .reviews {
+          & h5 {
+            font-size: 23px;
+            line-height: 27px;
+          }
+          & .review {
+            padding: 12px 12px 12px 18px;
+
+            & .person {
+              & div {
+                width: 46px;
+                height: 36px;
+              }
+              & p {
+                font-size: 14px;
+                line-height: 22px;
+              }
+              & .preson-name {
+                & h6 {
+                  font-size: 14px;
+                  line-height: 21px;
+                }
+                & p {
+                  font-size: 11px;
+                  line-height: 15px;
+                }
+              }
+            }
+          }
         }
       }
     }
